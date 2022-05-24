@@ -37,7 +37,7 @@ function emailvalidation() {
 }
 
 function buttonCheck() {
-    if (password.length >= 8 && emailvalidation() != false && password.length >=8 && password2.length >=8) {
+    if (password.length >= 8 && emailvalidation() != false && password.length >= 8 && password2.length >= 8) {
         $('#buttonChange').addClass('buttoncadastro2').removeClass('buttoncadastro3')
         document.getElementById('buttonChange').disabled = false
     } else {
@@ -55,35 +55,31 @@ document.getElementById('buttonChange').onclick = function navegacao() {
     window.location.href = "http://127.0.0.1:5501/usuario.html"
 }
 
-document.getElementById('buttonChange').onclick = function Goin(){
+document.getElementById('buttonChange').onclick = function Goin() {
     nextPage();
 }
 
-function nextPage (){
+function nextPage() {
 
     const usersJson = localStorage.getItem("users")
     var users = JSON.parse(usersJson);
 
     var indexUserComparation = null
-    console.log(indexUserComparation)
     users.forEach((user, index) => {
-        
-        if(user.email === email){
+
+        if (user.email === email) {
             indexUserComparation = index
-        console.log("dentro do primeiro if",indexUserComparation)
         }
     });
 
-    if(indexUserComparation === null){
+    if (indexUserComparation === null) {
         document.getElementById('campoError').textContent = "Email não cadastrado";
-        console.log("dentro do segundo if",indexUserComparation)
-    }else if(password != password2){
+    } else if (password != password2) {
         document.getElementById('campoError').textContent = "As senhas não são iguais"
 
-    }else {
+    } else {
         users[indexUserComparation].password = password2
         localStorage.setItem("users", JSON.stringify(users))
-        console.log(users.password)
         window.location.href = "http://127.0.0.1:5501/usuario.html"
     }
 

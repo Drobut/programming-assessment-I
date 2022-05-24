@@ -1,4 +1,3 @@
-
 const usersJson = localStorage.getItem("users")
 var users = JSON.parse(usersJson);
 
@@ -6,7 +5,6 @@ var password = ""
 var email = ""
 
 document.getElementById('botaosignin').disabled = true
-
 
 $('#password').keyup(function () {
     password = $(this).val()
@@ -61,16 +59,15 @@ function nextPage() {
     var indexUserLogged = null
 
     users.forEach((user, index) => {
-        if(user.email === email && user.password === password){
+        if (user.email === email && user.password === password) {
             indexUserLogged = index
         }
     });
 
-    if(indexUserLogged === null){
+    if (indexUserLogged === null) {
         document.getElementById('campoError').textContent = "Senha ou email inválido"
-    }else{
+    } else {
         localStorage.setItem('indexUserLogged', indexUserLogged)
         window.location.href = "http://127.0.0.1:5501/recados.html"
     }
-
 }

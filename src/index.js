@@ -1,6 +1,6 @@
 const usersJson = localStorage.getItem("users")
 var users = JSON.parse(usersJson);
-if(!users) users = []
+if (!users) users = []
 
 var password = ""
 var nomeSobrenome = ""
@@ -54,28 +54,28 @@ document.getElementById('buttonSignIn').onclick = function navegacao() {
     window.location.href = "http://127.0.0.1:5501/usuario.html"
 }
 
-document.getElementById('botaosignup').onclick = () =>{
-    
+document.getElementById('botaosignup').onclick = () => {
+
     var indexUserComparation = null
 
     users.forEach((user, index) => {
-        if(user.email === email){
+        if (user.email === email) {
             indexUserComparation = index
         }
     });
 
-    if(indexUserComparation != null){
+    if (indexUserComparation != null) {
         document.getElementById('campoError').textContent = "Email já cadastrado";
-    }else{
+    } else {
 
         const user = {
-           password: password,
+            password: password,
             nomeSobrenome: nomeSobrenome,
             email: email,
             cards: []
-            
+
         }
-        
+
         users.push(user)
 
         localStorage.setItem("users", JSON.stringify(users))
@@ -84,6 +84,6 @@ document.getElementById('botaosignup').onclick = () =>{
     }
 }
 
-function nextPage (){
-        window.location.href = "http://127.0.0.1:5501/usuario.html"
+function nextPage() {
+    window.location.href = "http://127.0.0.1:5501/usuario.html"
 }

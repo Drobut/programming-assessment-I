@@ -1,8 +1,6 @@
-
 const usersJson = localStorage.getItem("users")
 const indexUser = localStorage.getItem('indexUserLogged')
 var users = JSON.parse(usersJson);
-console.log("jsonusers", usersJson)
 
 var cards = users[indexUser].cards
 renderCards();
@@ -43,7 +41,6 @@ function editCards(index) {
   renderCards()
   salvarCard()
 }
-
 
 function deleteCards(index) {
   cards.splice(index, 1)
