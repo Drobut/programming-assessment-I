@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Project developed with the objective of applying the knowledge obtained as a result of the study of HTml5 and CSS technologies.
+Project developed with the objective of applying the knowledge obtained as a result of the study of HTml5, CSS and JavaScript technologies.
 
 Growdev - full stack web developer
 
