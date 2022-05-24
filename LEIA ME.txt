@@ -1,0 +1,4 @@
+color default padrao #FF4747;
+
+!USAR LIVE SERVER NA PORTA:!
+"liveServer.settings.port": 5501

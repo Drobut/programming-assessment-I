@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <link rel="icon" type="image/x-icon" href="images/pena.png">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>senha</title>
+</head>
+
+<body class="bodybackground">
+    <div class="bodybackgroundcolor">
+        <div class="menuautenticacao">
+            <div class="boasvindas">
+                <div class="contentescritas">
+                    <p class="sejabemvindo">Alteração de senha</p>
+                    <p class="escritapadrao">Altere sua senha ou</p>
+                    <p class="escritapadrao2">entre com sua conta pessoal</p>
+                    <button id="buttonSignIn" class="buttoncadastro" type="button">SIGN IN</button>
+                </div>
+            </div>
+            <div class="dados">
+                <div class="contentcadastro">
+                    <p class="novousuariotitulo">Altere sua senha</p>
+                    <p class="dadosescritas">Use seu e-mail para alterar sua senha:</p>
+                    <form class="formasimputs">
+                        <input type="email" id="email" class="input-padrao" required placeholder=" Email">
+                        <input type="password" id="password" class="input-padrao" required placeholder=" New password">
+                        <input type="password" id="password2" class="input-padrao2" required
+                            placeholder=" Repeat password">
+                    </form>
+                    <form class="buttonsignin">
+                        <button id="buttonChange" class="buttoncadastro3" type="button">CHANGE</button>
+                    </form>
+                    <p id="campoError"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/esqueciMinhaSenha.js"></script>
+
+</html>

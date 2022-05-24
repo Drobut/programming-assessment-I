@@ -1,0 +1,583 @@
+/* --------------------- index --------------------- */
+
+.bodybackground {
+    /* background-image: url(images/img5.jpg); */
+    background-color: #ececec;
+    margin: 0px;
+}
+
+.bodybackgroundcolor {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menuautenticacao {
+    background-color: white;
+    width: 55vw;
+    height: 65vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 10px;
+}
+
+.boasvindas {
+    background-color: #612fb3;
+    height: 100%;
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dados {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 65%;
+    float: right;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contentescritas {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative
+}
+
+.sejabemvindo {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.7em;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.escritapadrao {
+    color: rgba(255, 255, 255, 0.534);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    cursor: default;
+}
+
+.escritapadrao2 {
+    color: rgba(255, 255, 255, 0.534);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    font-size: 0.8em;
+    cursor: default;
+    margin-top: 0px;
+}
+
+.buttoncadastro {
+    width: 180px;
+    height: 40px;
+    /* top: 30%; */
+    margin-top: 5px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #612fb3;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin-top: 13px;
+    transition: 0.8s all;
+}
+
+.buttoncadastro:hover {
+    color: #612fb3;
+    border-color: white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttoncadastro:active {
+    transform: scale(0.9);
+}
+
+.contentcadastro {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative
+}
+
+.novousuariotitulo {
+    font-size: 1.8em;
+    color: #612fb3;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+/* ---------------------------------Links------------------------------- */
+
+.imageslinks {
+    width: 60px;
+    display: inline;
+}
+
+.facebook {
+    width: 35px;
+    transition: 1s all;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.google {
+    width: 35px;
+    transition: 1s all;
+    margin-right: 5px;
+    ;
+}
+
+.linkedin {
+    width: 35px;
+    transition: 1s all;
+}
+
+.facebook:hover,
+.google:hover,
+.linkedin:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.dadosescritas {
+    color: rgb(167, 167, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 0.8em;
+    margin-top: 16px;
+    cursor: default;
+}
+
+.buttoncadastro3 {
+    width: 180px;
+    height: 41px;
+    position: relative;
+    color: rgb(175, 175, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ececec;
+    border-radius: 20px;
+    margin-top: 21px;
+    transition: 0.8s all;
+    border-style: none;
+}
+
+.buttoncadastro2 {
+    width: 180px;
+    height: 41px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #612fb3;
+    border-radius: 20px;
+    margin-top: 21px;
+    transition: 0.8s all;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.buttoncadastro2:active {
+    transform: scale(0.9);
+}
+
+
+/* ---------------------------------Inputs------------------------------- */
+
+.input-padrao,
+.input-padrao2 {
+    width: 60%;
+    margin-top: 8px;
+    height: 44px;
+    background-color: #ececec;
+    border-style: none;
+    border-radius: 3px;
+    transition: 0.8s all;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-padrao:focus,
+.input-padrao2:focus {
+    outline: solid #612fb3 1px;
+    transform: scale(1.02);
+    color: #612fb3;
+}
+
+
+#email {
+    background-image: url(images/email.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: left;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+#nomeSobrenome {
+    background-image: url(images/usuario.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: left;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+#password,
+#password2 {
+    background-image: url(images/lock.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: left;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+/* ---------------------------------Tela de login------------------------------- */
+
+.boasvindas-usuario {
+    background-color: #612fb3;
+    height: 100%;
+    width: 35%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+}
+
+.dados-usuario {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 65%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+}
+
+.dados-usuario2 {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 65%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+}
+
+.lembrar {
+    color: rgb(167, 167, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    display: inline-flex;
+}
+
+.esqueciminhasenha {
+    color: rgb(167, 167, 167);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    display: inline-flex;
+    margin: 0px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+}
+
+.checkboxin {
+    margin-top: 18px;
+    display: inline-flex;
+}
+
+.lembrar input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.check {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    margin-right: 5px;
+}
+
+.lembrar:hover input~.check {
+    background-color: #ccc;
+}
+
+.lembrar input:checked~.check {
+    background-color: #612fb3;
+}
+
+.check:after {
+    content: "";
+    position: block;
+    display: none;
+}
+
+.lembrar input:checked~.check:after {
+    display: block;
+}
+
+.lembrar .check:after {
+    left: 20px;
+    top: 5px;
+    width: 10px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#campoError {
+    color: #612fb3;
+    transition: 0.8s all;
+    font-family: Arial, Helvetica, sans-serif;
+    display: list-item;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+/* ---------------------------------Tela de Recados------------------------------- */
+
+header {
+    background-color: #612fb3;
+    width: 100vw;
+    height: 48px;
+    margin: 0px;
+    position: relative;
+}
+
+.nomePage {
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+    padding: 15px 15px 15px 30px;
+    cursor: default;
+    float: left;
+}
+
+footer {
+    background-color: #612fb3;
+    position: relative;
+    margin: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100vw;
+    bottom: 0px;
+
+}
+
+.contentela {
+    background-color: white;
+    width: 99vw;
+    height: 98vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    border-radius: 10px;
+}
+
+.versao {
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#pageSair {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.sair {
+    float: right;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+}
+
+
+#sairbutton {
+    margin-right: 20px;
+    transition: 0.8s all;
+    background-image: url(images/logout.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+    background-color: transparent;
+    border-color: transparent;
+    width: 50px;
+    height: 48px;
+}
+
+#sairbutton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.13);
+    transition: 0.8s all;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.addButton {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    border-style: none;
+    color: #612fb3;
+    transition: 0.8s all;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 15px;
+
+}
+
+.addButton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.addButton:active {
+    transform: scale(0.9);
+}
+
+.listas {
+    display: inline-flex;
+}
+
+.titulo {
+    color: #612fb3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 180px;
+    margin-top: 10px;
+    border-style: none;
+    height: 19px;
+    transition: 0.8s all;
+}
+
+.titulo:focus {
+    outline: solid #612fb3 1px;
+    color: #612fb3;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+
+.anotacao {
+    color: #919191;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    height: 125px;
+    border-style: none;
+    transition: 0.8s all;
+}
+
+.anotacao:focus {
+    outline: solid #612fb3 1px;
+    color: #612fb3;
+    border-radius: 10px;
+    transform: scale(1.02);
+}
+
+
+.excluirButton {
+    background-color: #aaaaaa;
+    border-style: none;
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(images/excluir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    transition: 0.8s all;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.excluirButton:hover {
+    background-color: rgb(207, 68, 68);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.excluirButton:active {
+    transform: scale(0.9);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

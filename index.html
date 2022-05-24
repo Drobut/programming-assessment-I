@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <link rel="icon" type="image/x-icon" href="images/pena.png">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>home</title>
+</head>
+
+<body class="bodybackground">
+    <div class="bodybackgroundcolor">
+        <div class="menuautenticacao">
+            <div class="boasvindas">
+                <div class="contentescritas">
+                    <p class="sejabemvindo">Seja bem-vindo!</p>
+                    <p class="escritapadrao">Para se manter conectado</p>
+                    <p class="escritapadrao2">Por favor entre com sua conta pessoal</p>
+                    <button id="buttonSignIn" class="buttoncadastro" type="button">SIGN IN</button>
+                </div>
+            </div>
+            <div class="dados">
+                <div class="contentcadastro">
+                    <p class="novousuariotitulo">Crie seu usuário</p>
+                    <div class="imageslinks">
+                        <a href="https://www.facebook.com" target="blank"><img class="facebook"
+                                src="images/facobook.png" alt="facebook.com"></a>
+                        <a href="https://www.google.com" target="blank"><img class="google" src="images/google.png"
+                                alt="goole.com"></a>
+                        <a href="https://www.linkedin.com/in/drobutdouglas/" target="blank"><img class="linkedin"
+                                src="images/linke.png" alt="linkedin.com"></a>
+                    </div>
+                    <p class="dadosescritas">Ou use seu e-mail para se registrar:</p>
+                    <form class="formasimputs">
+                        <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder=" Name">
+                        <input type="email" id="email" class="input-padrao" required placeholder=" Email">
+                        <input type="password" id="password" class="input-padrao" required placeholder=" Password">
+                    </form>
+                    <form class="buttonsignin">
+                        <button id="botaosignup" class="buttoncadastro3" type="button">SIGN UP</button>
+                    </form>
+                    <p id="campoError"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/index.js"></script>
+
+</html>

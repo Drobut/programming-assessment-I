@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <link rel="icon" type="image/x-icon" href="images/pena.png">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>usuario</title>
+</head>
+
+<body class="bodybackground">
+    <div class="bodybackgroundcolor">
+        <div class="menuautenticacao">
+            <div class="boasvindas-usuario">
+                <div class="contentescritas">
+                    <p class="sejabemvindo">Cadastre-se!</p>
+                    <p class="escritapadrao">Caso ainda não possua uma conta</p>
+                    <p class="escritapadrao2">Por favor cadastre-se no botão abaixo</p>
+                    <button id="buttonSignUp" class="buttoncadastro" type="button">SIGN UP</button>
+                </div>
+            </div>
+            <div class="dados-usuario2">
+                <div class="contentcadastro">
+                    <p class="novousuariotitulo">Fazer login</p>
+                    <div class="imageslinks">
+                        <a href="https://www.facebook.com" target="blank"><img class="facebook"
+                                src="images/facobook.png" alt="facebook.com"></a>
+                        <a href="https://www.google.com" target="blank"><img class="google" src="images/google.png"
+                                alt="goole.com"></a>
+                        <a href="https://www.linkedin.com/in/drobutdouglas/" target="blank"><img class="linkedin"
+                                src="images/linke.png" alt="linkedin.com"></a>
+                    </div>
+                    <p class="dadosescritas">Use seu e-mail e senha para logar:</p>
+                    <form class="formasimputs">
+                        <input type="email" id="email" class="input-padrao" required placeholder=" Email">
+                        <input type="password" id="password" class="input-padrao" required placeholder=" Password">
+                    </form>
+                    <form class="checkboxin">
+                        <label class="lembrar" for="conectado">
+                            <input type="checkbox" id="conectado" name="conectado"><span
+                                class="check"></span>Lembrar-me</label>
+                        <button id="buttonSenha" type="button" class="esqueciminhasenha">Esqueci minha senha</button>
+                    </form>
+                    <form class="buttonsignin">
+                        <button id="botaosignin" class="buttoncadastro3" type="button">SIGN IN</button>
+                    </form>
+                    <p id="campoError"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/usuario.js"></script>
+
+</html>
