@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 * browser
 
   ```sh
-  browser with html5
+  Start live Server on port 5501
   ```
 
 ### Installation
@@ -72,7 +72,7 @@ browse through the page
 
 Douglas Drobut - [linkedLn](https://www.linkedin.com/in/drobutdouglas/) - dougdrobut@gmail.com
 
-Project Link: [https://github.com/Drobut/primeiro-site](https://github.com/Drobut/primeiro-site)
+Project Link: [https://github.com/Drobut/programming-assessment-I](https://github.com/Drobut/programming-assessment-I)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
